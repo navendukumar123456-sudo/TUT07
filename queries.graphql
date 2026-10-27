@@ -1,0 +1,25 @@
+# Query: list every author with their books
+query GetAuthorsWithBooks {
+    authors {
+        id
+        name
+        country
+        books {
+            title
+            year
+        }
+    }
+}
+
+# Query: get one author by ID
+query GetAuthor {
+    author(id: 1) {
+        id
+        name
+        country
+        books {
+            title
+            year
+        }
+    }
+}

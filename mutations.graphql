@@ -1,0 +1,11 @@
+# Mutation: add a new book
+mutation AddBook {
+    addBook(title: "GraphQL for Beginners", year: 2025, authorId: 2) {
+        id
+        title
+        year
+        author {
+            name
+        }
+    }
+}

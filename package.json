@@ -1,0 +1,14 @@
+{
+  "name": "campus-library",
+  "version": "1.0.0",
+  "description": "CS543 Web Services GraphQL tutorial - Campus Library",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.2.0",
+    "graphql": "^16.11.0",
+    "mysql2": "^3.15.3"
+  }
+}
